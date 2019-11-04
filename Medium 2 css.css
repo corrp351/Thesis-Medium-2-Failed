@@ -1,0 +1,242 @@
+@charset "UTF-8";
+body{
+	background: black;
+	overflow-x: hidden;
+	cursor: help;
+}
+
+div{
+	position: fixed;
+	width: auto;
+	height: auto;
+}
+
+.div1{
+	top:250px;
+	text-align: center;
+	padding-left: 30vh;
+	padding-right: 30vh;
+	font-family: 'french-canon', Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'"DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font:200;
+	font-size: 40px;
+	color:aliceblue; 
+	opacity: 0;
+	animation: appear 10s ease-in ;
+}
+
+@keyframes appear {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@keyframes circles {
+	0% {opacity: 0}
+	20% {opacity: 0}
+	40% {opacity: 0}
+	60% {opacity: 0}
+	80% {opacity: 1}
+	100% {opacity: 1}
+}
+
+/*
+.divboxes{
+	height:1000vh;
+	width:1000vw;
+}
+*/
+
+.circle1{
+	opacity:1;
+	position:absolute;
+	width:200px;
+	height:200px;
+	top:30vh;
+	left:30vw;
+	animation-name: circles;
+	animation-duration: 14s;
+	animation-iteration-count: 1;
+}
+
+.circle2{
+	opacity:1;
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:55vh;
+	left:55vw;
+	animation-name: circles;
+	animation-duration: 14s;
+	animation-iteration-count: 1;
+}
+
+.circle3{
+	opacity:1;
+	position:absolute;
+	width:150px;
+	height:150px;
+	top:65vh;
+	left:80vw;
+	animation-name: circles;
+	animation-duration: 14s;
+	animation-iteration-count: 1;
+}
+
+.circle4{
+	opacity:1;
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:5vh;
+	left:80vw;
+	animation-name: circles;
+	animation-duration: 14s;
+	animation-iteration-count: 1;
+}
+
+.circle5{
+	opacity:1;
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:75vh;
+	left:20vw;
+	animation-name: circles;
+	animation-duration: 14s;
+	animation-iteration-count: 1;
+}
+
+.circle6{
+	opacity:1;
+	position:absolute;
+	width:115px;
+	height:115px;
+	top:10vh;
+	left:10vw;
+	animation-name: circles;
+	animation-duration: 14s;
+	animation-iteration-count: 1;
+}
+
+
+img:hover {
+	animation-name: pulse;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	
+}
+@keyframes pulse{
+	0% {transform: scale(1.5);}
+	20% {transform: scale(2);}
+	40% {transform: scale(2.5);}
+	60% {transform: scale(2);}
+	80% {transform: scale(1.5);}
+	100% {transform: scale(1);}
+}
+
+/*
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+*/
+
+.circlebody{
+	cursor: help;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#pic1{
+	position: absolute;
+	align-items: center;
+	top:-25vh;
+	left:23.5vw;
+	transform: rotate(90deg);
+	width:100vmin;
+	height:150vmin;
+}
+
+#pic2{
+	position: absolute;
+	align-items: center;
+	top:-25vh;
+	left:23vw;
+	transform: rotate(-90deg);
+	width:100vmin;
+	height:150vmin;
+}
+
+#pic3{
+	position: absolute;
+	align-items: center;
+	top:-25vh;
+	left:23.5vw;
+	transform: rotate(90deg);
+	width:100vmin;
+	height:150vmin;
+}
+
+#pic4{
+	position: absolute;
+	align-items: center;
+	top:-25vh;
+	left:23.5vw;
+	transform: rotate(90deg);
+	width:100vmin;
+	height:150vmin;
+}
+
+#pic5{
+	position: absolute;
+	align-items: center;
+	top:-25vh;
+	left:23.5vw;
+	transform: rotate(90deg);
+	width:100vmin;
+	height:150vmin;
+}
+
+#pic6{
+	position: absolute;
+	align-items: center;
+	top:-25vh;
+	left:23.5vw;
+	transform: rotate(90deg);
+	width:100vmin;
+	height:150vmin;
+}
+
+.pic1:hover {
+	animation: pulse !important;
+}
+.pic2:hover {
+	animation: pulse !important;
+}
+.pic3:hover {
+	animation: pulse !important;
+}
+.pic4:hover {
+	animation: pulse !important;
+}
+.pic5:hover {
+	animation: pulse !important;
+}
+.pic6:hover {
+	animation: pulse !important;
+}
+
+
+
+
+
+
